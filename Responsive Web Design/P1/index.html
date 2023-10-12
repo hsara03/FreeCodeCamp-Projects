@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UAB/Enginyeria</title>
-    <link rel="stylesheet" href="/css/uab.css">
+    <link rel="stylesheet" href="./css/uab.css">
+    <script src="js/funcions.js"></script>
+
 </head>
 <body>
     <!--header-->
@@ -42,7 +44,7 @@
     </header>
     <p class="important">Si us plau facilita'ns les teves dades</p>
     <div id="formDiv">
-    <form method="post" action="registre.html">
+    <form method="post" action="" onsubmit="return confirmaRegistre();">
         Nom Complet: <input type="text" name="nom"/><br/>
         Password: <input type="password" name="clau"/><br/>
         Grau:
